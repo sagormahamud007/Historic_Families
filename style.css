@@ -1,0 +1,225 @@
+
+h1{
+    color: #006266;
+    font-family: "EB Garamond", Sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+h2 {
+    color: #006266;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: "EB Garamond", Sans-serif;
+}
+h3 {
+    font-family: "EB Garamond", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 37px;
+    color: #006266;
+}
+ p{
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.btn {
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 26px;
+    background-color: #010C1C;
+    border:1px solid white;
+    padding: 13px 25px 12px 25px;
+}
+ h5 {
+    font-family: "EB Garamond", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 26px;
+}
+h4 {
+	color: #010C1C;
+	font-size: 42px;
+	line-height: 48px;
+    font-family: "EB Garamond", Sans-serif;
+    font-weight: 600;
+}
+a{
+    color: #ffffff;
+}
+.container{
+    max-width: 1270px;
+    width: 100%;
+    margin:0 auto;
+}
+/*=======================topber-section========================*/
+.topber_section .topber_email ul li{
+        list-style: none;
+}
+.manuber_section a{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "EB Garamond", Sans-serif;
+    font-weight: 600;
+
+}
+ .row {
+	--bs-gutter-x:0;
+	--bs-gutter-y: 0;
+}
+
+.abc {
+    height: 500px;
+    object-fit: cover;
+}
+.abc img{
+    object-fit: cover;
+}
+/* .slider_section{
+    background: url("./img/Our-Products.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+    margin-bottom: 80px;
+
+} */
+
+
+.form_section .form-control:focus {
+	color: unset;
+	background-color: unse;
+	border-color: unset;
+	outline: unset;
+	box-shadow: unset;
+}
+.slider_section .slider-heding span{
+        color: #ffffff;
+        font-size: 50px;
+        font-family: "EB Garamond", Sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+}
+.slider_section .slider_btn{
+    text-align: center;
+    margin-top: 42px;
+}
+.slider_section .slider_btn a{
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 26px;
+    border:1px solid white;
+    padding: 13px 25px 12px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.button_btn a{
+	font-family: "Lato", Sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 26px;
+	fill: #FFFFFF;
+	color: #FFFFFF;
+	background-color: #4B0B0C;
+	border-radius: 0px 0px 0px 0px;
+	padding: 10px 45px 13px 45px;
+    text-decoration: none;
+}
+
+
+.button_btn .btn_one{
+	font-family: "Lato", Sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 26px;
+	fill: #FFFFFF;
+	color: #FFFFFF;
+	background-color:#010C1C;
+	border-radius: 0px 0px 0px 0px;
+	padding: 10px 45px 13px 45px;
+    text-decoration: none;
+}
+
+.card_section .card_parrent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+}
+
+.grid_section .grid_parrent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid_section .grid_parrent .grid_img img{
+        width:100%
+}
+
+.form_section .form_hedding .form_btn{
+    margin-top: -34px;
+    margin-left: 35%;
+}
+
+.form_section .form_hedding .form_btn a{
+        background: black;
+        padding: 10px 20px;
+        text-decoration: none;
+        
+}
+
+.footer_section .footer_parrent ul{
+    list-style: none;
+}
+
+.footer_section .footer_parrent ul li{
+        padding: 5px 0;
+}
+
+.footer_section .footer_parrent ul li a{
+        text-decoration: none;
+}
+
+.footer_section .footer_parrent .footer_hedding-one h5{
+        position: relative;
+}
+
+.footer_section .footer_parrent .footer_hedding-one h5::after{
+            content: "";
+            position: absolute;
+            height: 1px;
+            width: 70px;
+            background: #ffffff;
+            margin-top: 41px;
+            margin-left: -130px;
+}
+
+.footer_section .footer_parrent .hedding-two h5{
+    position: relative;
+}
+
+.footer_section .footer_parrent .hedding-two h5::after{
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 70px;
+        background: #ffffff;
+        margin-top: 41px;
+        margin-left: -120px;
+}
+        
+
+
